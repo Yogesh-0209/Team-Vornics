@@ -1,0 +1,146 @@
+{
+  "events": [
+    {
+      "eventType": "Cargo Loading",
+      "startTime": "2025-06-20 20:25:00",
+      "endTime": "2025-08-24 14:55:58",
+      "duration": 1554.516111111111,
+      "location": "Port Alpha  Event 2  Event",
+      "description": "Cargo loading operations - container",
+      "confidence": 1.0,
+      "rawText": "maritime sample sof file hackathon demo data - no anomalies or overlaps  event 1  event: arrived vesselname: mv ocean star start: 2025-6-7 8:0:0 end: 2025-6-7 8:30:0 location: port alpha  event 2  event: berthed allocated vesselname: mv ocean star start: 2025-6-7 9:0:0 end: 2025-6-7 9:15:0 location: berthed 3  event 3  event: loading cargo vesselname: mv ocean star start: 2025-6-7 10:0:0 end: 2025-6-7 18:0:0 cargotype: containers quantity: 1200 teu  event 4  event: unberthed vesselname: mv ocean star start: 2025-6-8 6:0:0 end: 2025-6-8 6:30:0 location: berthed 3  event 5  event: departure vesselname: mv ocean star start: 2025-6-8 7:0:0 end: 2025-6-8 7:15:0 destination: port beta",
+      "context": {
+        "cargo_type": "container",
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      },
+      "anomalies": [
+        "Overlaps with next event 'Departed' (starts at 2025-06-2007 20:25:00).",
+        "Significant overlap of 66083936.0 minutes with next event. Original times preserved."
+      ]
+    },
+    {
+      "eventType": "Departed",
+      "startTime": "2025-06-20 20:25:00",
+      "endTime": "2025-08-24 14:55:58",
+      "duration": 1554.516111111111,
+      "location": "Port Alpha  Event 2  Event",
+      "description": "Vessel departed - container",
+      "confidence": 1.0,
+      "rawText": "maritime sample sof file hackathon demo data - no anomalies or overlaps  event 1  event: arrived vesselname: mv ocean star start: 2025-6-7 8:0:0 end: 2025-6-7 8:30:0 location: port alpha  event 2  event: berthed allocated vesselname: mv ocean star start: 2025-6-7 9:0:0 end: 2025-6-7 9:15:0 location: berthed 3  event 3  event: loading cargo vesselname: mv ocean star start: 2025-6-7 10:0:0 end: 2025-6-7 18:0:0 cargotype: containers quantity: 1200 teu  event 4  event: unberthed vesselname: mv ocean star start: 2025-6-8 6:0:0 end: 2025-6-8 6:30:0 location: berthed 3  event 5  event: departure vesselname: mv ocean star start: 2025-6-8 7:0:0 end: 2025-6-8 7:15:0 destination: port beta",
+      "context": {
+        "cargo_type": "container",
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      },
+      "anomalies": [
+        "Overlaps with next event 'Arrived' (starts at 2025-06-2007 20:25:00).",
+        "Significant overlap of 66083936.0 minutes with next event. Original times preserved."
+      ]
+    },
+    {
+      "eventType": "Arrived",
+      "startTime": "2025-06-20 20:25:00",
+      "endTime": "2025-08-24 14:55:58",
+      "duration": 1554.516111111111,
+      "location": "Port Alpha  Event 2  Event",
+      "description": "Vessel arrived - container",
+      "confidence": 1.0,
+      "rawText": "maritime sample sof file hackathon demo data - no anomalies or overlaps  event 1  event: arrived vesselname: mv ocean star start: 2025-6-7 8:0:0 end: 2025-6-7 8:30:0 location: port alpha  event 2  event: berthed allocated vesselname: mv ocean star start: 2025-6-7 9:0:0 end: 2025-6-7 9:15:0 location: berthed 3  event 3  event: loading cargo vesselname: mv ocean star start: 2025-6-7 10:0:0 end: 2025-6-7 18:0:0 cargotype: containers quantity: 1200 teu  event 4  event: unberthed vesselname: mv ocean star start: 2025-6-8 6:0:0 end: 2025-6-8 6:30:0 location: berthed 3  event 5  event: departure vesselname: mv ocean star start: 2025-6-8 7:0:0 end: 2025-6-8 7:15:0 destination: port beta",
+      "context": {
+        "cargo_type": "container",
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      },
+      "anomalies": [
+        "Overlaps with next event 'Berthed' (starts at 2025-06-2007 20:25:00).",
+        "Significant overlap of 66083936.0 minutes with next event. Original times preserved."
+      ]
+    },
+    {
+      "eventType": "Berthed",
+      "startTime": "2025-06-20 20:25:00",
+      "endTime": "2025-08-24 14:55:58",
+      "duration": 1554.516111111111,
+      "location": "Port Alpha  Event 2  Event",
+      "description": "Vessel berthed - container",
+      "confidence": 1.0,
+      "rawText": "maritime sample sof file hackathon demo data - no anomalies or overlaps  event 1  event: arrived vesselname: mv ocean star start: 2025-6-7 8:0:0 end: 2025-6-7 8:30:0 location: port alpha  event 2  event: berthed allocated vesselname: mv ocean star start: 2025-6-7 9:0:0 end: 2025-6-7 9:15:0 location: berthed 3  event 3  event: loading cargo vesselname: mv ocean star start: 2025-6-7 10:0:0 end: 2025-6-7 18:0:0 cargotype: containers quantity: 1200 teu  event 4  event: unberthed vesselname: mv ocean star start: 2025-6-8 6:0:0 end: 2025-6-8 6:30:0 location: berthed 3  event 5  event: departure vesselname: mv ocean star start: 2025-6-8 7:0:0 end: 2025-6-8 7:15:0 destination: port beta",
+      "context": {
+        "cargo_type": "container",
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      },
+      "anomalies": [
+        "Overlaps with next event 'Unberthed' (starts at 2025-06-2007 20:25:00).",
+        "Significant overlap of 66083936.0 minutes with next event. Original times preserved."
+      ]
+    },
+    {
+      "eventType": "Unberthed",
+      "startTime": "2025-06-20 20:25:00",
+      "endTime": "2025-08-24 14:55:58",
+      "duration": 1554.516111111111,
+      "location": "Port Alpha  Event 2  Event",
+      "description": "Vessel unberthed - container",
+      "confidence": 1.0,
+      "rawText": "maritime sample sof file hackathon demo data - no anomalies or overlaps  event 1  event: arrived vesselname: mv ocean star start: 2025-6-7 8:0:0 end: 2025-6-7 8:30:0 location: port alpha  event 2  event: berthed allocated vesselname: mv ocean star start: 2025-6-7 9:0:0 end: 2025-6-7 9:15:0 location: berthed 3  event 3  event: loading cargo vesselname: mv ocean star start: 2025-6-7 10:0:0 end: 2025-6-7 18:0:0 cargotype: containers quantity: 1200 teu  event 4  event: unberthed vesselname: mv ocean star start: 2025-6-8 6:0:0 end: 2025-6-8 6:30:0 location: berthed 3  event 5  event: departure vesselname: mv ocean star start: 2025-6-8 7:0:0 end: 2025-6-8 7:15:0 destination: port beta",
+      "context": {
+        "cargo_type": "container",
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    }
+  ],
+  "vesselInfo": {
+    "name": "Ocean Star Start",
+    "imo": "IMO1234567",
+    "flag": "Panama"
+  },
+  "portInfo": {
+    "name": "Alpha  Event 2  Event",
+    "country": "Singapore"
+  },
+  "totalLaytime": "15.9 hours",
+  "statistics": {
+    "total_events": 5,
+    "total_duration_hours": 15.9,
+    "event_types": {
+      "Cargo Loading": {
+        "count": 1,
+        "total_duration": 14.399999999999999
+      },
+      "Departed": {
+        "count": 1,
+        "total_duration": 0.3
+      },
+      "Arrived": {
+        "count": 1,
+        "total_duration": 0.3
+      },
+      "Berthed": {
+        "count": 1,
+        "total_duration": 0.6
+      },
+      "Unberthed": {
+        "count": 1,
+        "total_duration": 0.3
+      }
+    },
+    "average_event_duration": 3.18
+  },
+  "documentDate": "2025-06-2007",
+  "extractedFrom": "maritime_sample_sof.pdf",
+  "totalEvents": 5,
+  "extractionTimestamp": "2025-08-24T14:25:58.801697"
+}

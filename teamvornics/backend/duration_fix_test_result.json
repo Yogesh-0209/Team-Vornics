@@ -1,0 +1,167 @@
+{
+  "events": [
+    {
+      "eventType": "Anchored",
+      "startTime": "2022-08-23 10:59:00",
+      "endTime": "2022-08-23 11:00:00",
+      "duration": 0.1,
+      "location": "Port: Test Port Event Log",
+      "description": "Vessel anchored",
+      "confidence": 1.0,
+      "rawText": "statement of facts vessel: test vessel port: test port event log: 1. arrived at port on 2023-8-22 8:0 2. anchored at 2023-8-22 9:0 for 2 hours 3. berthed at 2023-8-22 11:0 for 5 hours 4. started cargo operations at 2023-8-22 11:30 for 4 hours 5. completed cargo operations at 2023-8-22 15:30 6. unberthed at 2023-8-22 16:0 for 1 hour 7. departed at 2023-8-22 17:0",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      },
+      "anomalies": [
+        "Overlaps with next event 'Cargo Loading' (starts at 2022-08-23 11:00:00).",
+        "Adjusted end time to 2022-08-23 10:59:00 to prevent overlap."
+      ]
+    },
+    {
+      "eventType": "Cargo Loading",
+      "startTime": "2022-08-23 10:59:00",
+      "endTime": "2022-08-23 11:00:00",
+      "duration": 0.1,
+      "location": "Port: Test Port Event Log",
+      "description": "Cargo loading operations",
+      "confidence": 1.0,
+      "rawText": "statement of facts vessel: test vessel port: test port event log: 1. arrived at port on 2023-8-22 8:0 2. anchored at 2023-8-22 9:0 for 2 hours 3. berthed at 2023-8-22 11:0 for 5 hours 4. started cargo operations at 2023-8-22 11:30 for 4 hours 5. completed cargo operations at 2023-8-22 15:30 6. unberthed at 2023-8-22 16:0 for 1 hour 7. departed at 2023-8-22 17:0",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      },
+      "anomalies": [
+        "Overlaps with next event 'Departed' (starts at 2022-08-23 11:00:00).",
+        "Adjusted end time to 2022-08-23 10:59:00 to prevent overlap."
+      ]
+    },
+    {
+      "eventType": "Departed",
+      "startTime": "2022-08-23 10:59:00",
+      "endTime": "2022-08-23 11:00:00",
+      "duration": 0.1,
+      "location": "Port: Test Port Event Log",
+      "description": "Vessel departed",
+      "confidence": 1.0,
+      "rawText": "statement of facts vessel: test vessel port: test port event log: 1. arrived at port on 2023-8-22 8:0 2. anchored at 2023-8-22 9:0 for 2 hours 3. berthed at 2023-8-22 11:0 for 5 hours 4. started cargo operations at 2023-8-22 11:30 for 4 hours 5. completed cargo operations at 2023-8-22 15:30 6. unberthed at 2023-8-22 16:0 for 1 hour 7. departed at 2023-8-22 17:0",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      },
+      "anomalies": [
+        "Overlaps with next event 'Arrived' (starts at 2022-08-23 11:00:00).",
+        "Adjusted end time to 2022-08-23 10:59:00 to prevent overlap."
+      ]
+    },
+    {
+      "eventType": "Arrived",
+      "startTime": "2022-08-23 10:59:00",
+      "endTime": "2022-08-23 11:00:00",
+      "duration": 0.1,
+      "location": "Port: Test Port Event Log",
+      "description": "Vessel arrived",
+      "confidence": 1.0,
+      "rawText": "statement of facts vessel: test vessel port: test port event log: 1. arrived at port on 2023-8-22 8:0 2. anchored at 2023-8-22 9:0 for 2 hours 3. berthed at 2023-8-22 11:0 for 5 hours 4. started cargo operations at 2023-8-22 11:30 for 4 hours 5. completed cargo operations at 2023-8-22 15:30 6. unberthed at 2023-8-22 16:0 for 1 hour 7. departed at 2023-8-22 17:0",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      },
+      "anomalies": [
+        "Overlaps with next event 'Berthed' (starts at 2022-08-23 11:00:00).",
+        "Adjusted end time to 2022-08-23 10:59:00 to prevent overlap."
+      ]
+    },
+    {
+      "eventType": "Berthed",
+      "startTime": "2022-08-23 11:00:00",
+      "endTime": "2022-08-23 11:30:00",
+      "duration": 0.5,
+      "location": "Port: Test Port Event Log",
+      "description": "Vessel berthed",
+      "confidence": 1.0,
+      "rawText": "statement of facts vessel: test vessel port: test port event log: 1. arrived at port on 2023-8-22 8:0 2. anchored at 2023-8-22 9:0 for 2 hours 3. berthed at 2023-8-22 11:0 for 5 hours 4. started cargo operations at 2023-8-22 11:30 for 4 hours 5. completed cargo operations at 2023-8-22 15:30 6. unberthed at 2023-8-22 16:0 for 1 hour 7. departed at 2023-8-22 17:0",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Unberthed",
+      "startTime": "2022-08-23 11:30:00",
+      "endTime": "2022-08-23 13:30:00",
+      "duration": 2.0,
+      "location": "Port: Test Port Event Log",
+      "description": "Vessel unberthed",
+      "confidence": 1.0,
+      "rawText": "statement of facts vessel: test vessel port: test port event log: 1. arrived at port on 2023-8-22 8:0 2. anchored at 2023-8-22 9:0 for 2 hours 3. berthed at 2023-8-22 11:0 for 5 hours 4. started cargo operations at 2023-8-22 11:30 for 4 hours 5. completed cargo operations at 2023-8-22 15:30 6. unberthed at 2023-8-22 16:0 for 1 hour 7. departed at 2023-8-22 17:0",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    }
+  ],
+  "vesselInfo": {
+    "name": "Test Vessel Port",
+    "imo": "IMO1234567",
+    "flag": "Panama"
+  },
+  "portInfo": {
+    "name": "Test Port Event Log",
+    "country": "Singapore"
+  },
+  "totalLaytime": "4.5 hours",
+  "statistics": {
+    "total_events": 6,
+    "total_duration_hours": 4.5,
+    "event_types": {
+      "Anchored": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Cargo Loading": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Departed": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Arrived": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Berthed": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Unberthed": {
+        "count": 1,
+        "total_duration": 2.0
+      }
+    },
+    "average_event_duration": 0.75
+  },
+  "documentDate": "2022-08-23",
+  "extractedFrom": "test.pdf",
+  "totalEvents": 6,
+  "extractionTimestamp": "2025-08-22T12:31:32.650460"
+}

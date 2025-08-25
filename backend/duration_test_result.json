@@ -1,0 +1,130 @@
+{
+  "events": [
+    {
+      "eventType": "Anchored",
+      "startTime": "2024-01-10 08:00:00",
+      "endTime": "2024-01-10 10:30:00",
+      "duration": 2.5,
+      "location": "Berth 10",
+      "description": "Vessel anchored",
+      "confidence": 1.0,
+      "rawText": "vessel: global trader port: singapore date: 10 jan 2024 10 jan 2024 08:30 - vessel arrived at port limits 10 jan 2024 09:00 - vessel anchored for 2.5 hours 10 jan 2024 11:30 - vessel started moving to berth 10 jan 2024 12:30 - vessel berthed 10 jan 2024 13:00 - cargo operations commenced 10 jan 2024 15:00 - cargo operations completed after 2 hours 10 jan 2024 15:30 - vessel unberthed 10 jan 2024 16:00 - vessel departed",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Departed",
+      "startTime": "2024-01-10 08:00:00",
+      "endTime": "2024-01-10 10:30:00",
+      "duration": 2.5,
+      "location": "Berth 10",
+      "description": "Vessel departed",
+      "confidence": 1.0,
+      "rawText": "vessel: global trader port: singapore date: 10 jan 2024 10 jan 2024 08:30 - vessel arrived at port limits 10 jan 2024 09:00 - vessel anchored for 2.5 hours 10 jan 2024 11:30 - vessel started moving to berth 10 jan 2024 12:30 - vessel berthed 10 jan 2024 13:00 - cargo operations commenced 10 jan 2024 15:00 - cargo operations completed after 2 hours 10 jan 2024 15:30 - vessel unberthed 10 jan 2024 16:00 - vessel departed",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Arrived",
+      "startTime": "2024-01-10 08:00:00",
+      "endTime": "2024-01-10 10:30:00",
+      "duration": 2.5,
+      "location": "Berth 10",
+      "description": "Vessel arrived",
+      "confidence": 1.0,
+      "rawText": "vessel: global trader port: singapore date: 10 jan 2024 10 jan 2024 08:30 - vessel arrived at port limits 10 jan 2024 09:00 - vessel anchored for 2.5 hours 10 jan 2024 11:30 - vessel started moving to berth 10 jan 2024 12:30 - vessel berthed 10 jan 2024 13:00 - cargo operations commenced 10 jan 2024 15:00 - cargo operations completed after 2 hours 10 jan 2024 15:30 - vessel unberthed 10 jan 2024 16:00 - vessel departed",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Berthed",
+      "startTime": "2024-01-10 08:00:00",
+      "endTime": "2024-01-10 10:30:00",
+      "duration": 2.5,
+      "location": "Berth 10",
+      "description": "Vessel berthed",
+      "confidence": 1.0,
+      "rawText": "vessel: global trader port: singapore date: 10 jan 2024 10 jan 2024 08:30 - vessel arrived at port limits 10 jan 2024 09:00 - vessel anchored for 2.5 hours 10 jan 2024 11:30 - vessel started moving to berth 10 jan 2024 12:30 - vessel berthed 10 jan 2024 13:00 - cargo operations commenced 10 jan 2024 15:00 - cargo operations completed after 2 hours 10 jan 2024 15:30 - vessel unberthed 10 jan 2024 16:00 - vessel departed",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Unberthed",
+      "startTime": "2024-01-10 08:30:00",
+      "endTime": "2024-01-10 11:00:00",
+      "duration": 2.5,
+      "location": "Berth 10",
+      "description": "Vessel unberthed",
+      "confidence": 1.0,
+      "rawText": "vessel: global trader port: singapore date: 10 jan 2024 10 jan 2024 08:30 - vessel arrived at port limits 10 jan 2024 09:00 - vessel anchored for 2.5 hours 10 jan 2024 11:30 - vessel started moving to berth 10 jan 2024 12:30 - vessel berthed 10 jan 2024 13:00 - cargo operations commenced 10 jan 2024 15:00 - cargo operations completed after 2 hours 10 jan 2024 15:30 - vessel unberthed 10 jan 2024 16:00 - vessel departed",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    }
+  ],
+  "vesselInfo": {
+    "name": "Global Trader Port",
+    "imo": "IMO1234567",
+    "flag": "Panama"
+  },
+  "portInfo": {
+    "name": "Singapore Date",
+    "country": "Singapore"
+  },
+  "totalLaytime": "12.5 hours",
+  "statistics": {
+    "total_events": 5,
+    "total_duration_hours": 12.5,
+    "event_types": {
+      "Anchored": {
+        "count": 1,
+        "total_duration": 2.5
+      },
+      "Departed": {
+        "count": 1,
+        "total_duration": 2.5
+      },
+      "Arrived": {
+        "count": 1,
+        "total_duration": 2.5
+      },
+      "Berthed": {
+        "count": 1,
+        "total_duration": 2.5
+      },
+      "Unberthed": {
+        "count": 1,
+        "total_duration": 2.5
+      }
+    },
+    "average_event_duration": 2.5
+  },
+  "documentDate": "2024-01-10",
+  "extractedFrom": "test_duration.txt",
+  "totalEvents": 5,
+  "extractionTimestamp": "2025-08-23T12:34:57.932961"
+}

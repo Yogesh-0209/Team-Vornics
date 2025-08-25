@@ -1,0 +1,130 @@
+{
+  "events": [
+    {
+      "eventType": "Arrived",
+      "startTime": "2024-01-10 08:00:00",
+      "endTime": "2024-01-10 08:30:00",
+      "duration": 0.5,
+      "location": "Terminal 10",
+      "description": "Vessel arrived",
+      "confidence": 1.0,
+      "rawText": "date: 10 jan 2024 10 jan 2024 08:30 - vessel arrived at port limits 10 jan 2024 09:00 - vessel departed from port limits 10 jan 2024 10:15 - vessel berthed at terminal 10 jan 2024 14:45 - vessel unberthed from terminal 10 jan 2024 15:30 - vessel anchored at waiting area",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Anchored",
+      "startTime": "2024-01-10 08:00:00",
+      "endTime": "2024-01-10 08:30:00",
+      "duration": 0.5,
+      "location": "Terminal 10",
+      "description": "Vessel anchored",
+      "confidence": 1.0,
+      "rawText": "date: 10 jan 2024 10 jan 2024 08:30 - vessel arrived at port limits 10 jan 2024 09:00 - vessel departed from port limits 10 jan 2024 10:15 - vessel berthed at terminal 10 jan 2024 14:45 - vessel unberthed from terminal 10 jan 2024 15:30 - vessel anchored at waiting area",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Departed",
+      "startTime": "2024-01-10 08:00:00",
+      "endTime": "2024-01-10 08:30:00",
+      "duration": 0.5,
+      "location": "Terminal 10",
+      "description": "Vessel departed",
+      "confidence": 1.0,
+      "rawText": "date: 10 jan 2024 10 jan 2024 08:30 - vessel arrived at port limits 10 jan 2024 09:00 - vessel departed from port limits 10 jan 2024 10:15 - vessel berthed at terminal 10 jan 2024 14:45 - vessel unberthed from terminal 10 jan 2024 15:30 - vessel anchored at waiting area",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Berthed",
+      "startTime": "2024-01-10 08:00:00",
+      "endTime": "2024-01-10 08:30:00",
+      "duration": 0.5,
+      "location": "Terminal 10",
+      "description": "Vessel berthed",
+      "confidence": 1.0,
+      "rawText": "date: 10 jan 2024 10 jan 2024 08:30 - vessel arrived at port limits 10 jan 2024 09:00 - vessel departed from port limits 10 jan 2024 10:15 - vessel berthed at terminal 10 jan 2024 14:45 - vessel unberthed from terminal 10 jan 2024 15:30 - vessel anchored at waiting area",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Unberthed",
+      "startTime": "2024-01-10 08:30:00",
+      "endTime": "2024-01-10 09:00:00",
+      "duration": 0.5,
+      "location": "Terminal 10",
+      "description": "Vessel unberthed",
+      "confidence": 1.0,
+      "rawText": "date: 10 jan 2024 10 jan 2024 08:30 - vessel arrived at port limits 10 jan 2024 09:00 - vessel departed from port limits 10 jan 2024 10:15 - vessel berthed at terminal 10 jan 2024 14:45 - vessel unberthed from terminal 10 jan 2024 15:30 - vessel anchored at waiting area",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    }
+  ],
+  "vesselInfo": {
+    "name": "Arrived At Port Limits 10 Jan 2024 09",
+    "imo": "IMO1234567",
+    "flag": "Panama"
+  },
+  "portInfo": {
+    "name": "Limits 10 Jan 2024 09",
+    "country": "Singapore"
+  },
+  "totalLaytime": "2.5 hours",
+  "statistics": {
+    "total_events": 5,
+    "total_duration_hours": 2.5,
+    "event_types": {
+      "Arrived": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Anchored": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Departed": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Berthed": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Unberthed": {
+        "count": 1,
+        "total_duration": 0.5
+      }
+    },
+    "average_event_duration": 0.5
+  },
+  "documentDate": "2024-01-10",
+  "extractedFrom": "test_exact_format.txt",
+  "totalEvents": 5,
+  "extractionTimestamp": "2025-08-23T12:47:52.260869"
+}

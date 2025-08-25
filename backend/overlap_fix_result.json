@@ -1,0 +1,130 @@
+{
+  "events": [
+    {
+      "eventType": "Anchored",
+      "startTime": "2025-08-23 05:00:00",
+      "endTime": "2025-08-23 05:30:00",
+      "duration": 0.5,
+      "location": "outer anchorage",
+      "description": "Vessel anchored at outer anchorage",
+      "confidence": 1.0,
+      "rawText": "23 Aug 2025 05:00 - Vessel anchored at outer anchorage",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Arrived",
+      "startTime": "2025-08-23 06:00:00",
+      "endTime": "2025-08-23 06:30:00",
+      "duration": 0.5,
+      "location": "port limits",
+      "description": "Vessel arrived at port limits",
+      "confidence": 1.0,
+      "rawText": "23 Aug 2025 06:00 - Vessel arrived at port limits",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Berthed",
+      "startTime": "2025-08-23 07:00:00",
+      "endTime": "2025-08-23 07:30:00",
+      "duration": 0.5,
+      "location": "Terminal 1",
+      "description": "Vessel berthed at Terminal 1",
+      "confidence": 1.0,
+      "rawText": "23 Aug 2025 07:00 - Vessel berthed at Terminal 1",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Unberthed",
+      "startTime": "2025-08-23 08:00:00",
+      "endTime": "2025-08-23 08:30:00",
+      "duration": 0.5,
+      "location": "Terminal 10",
+      "description": "Vessel unberthed from Terminal 1",
+      "confidence": 1.0,
+      "rawText": "23 Aug 2025 08:00 - Vessel unberthed from Terminal 1",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Departed",
+      "startTime": "2025-08-23 09:00:00",
+      "endTime": "2025-08-23 09:30:00",
+      "duration": 0.5,
+      "location": "Terminal 10",
+      "description": "Vessel departed from port",
+      "confidence": 1.0,
+      "rawText": "23 Aug 2025 09:00 - Vessel departed from port",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    }
+  ],
+  "vesselInfo": {
+    "name": "Mv Test Vessel\nPort",
+    "imo": "IMO1234567",
+    "flag": "Panama"
+  },
+  "portInfo": {
+    "name": "Singapore\n\n23 Aug 2025 05",
+    "country": "Singapore"
+  },
+  "totalLaytime": "2.5 hours",
+  "statistics": {
+    "total_events": 5,
+    "total_duration_hours": 2.5,
+    "event_types": {
+      "Anchored": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Arrived": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Berthed": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Unberthed": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Departed": {
+        "count": 1,
+        "total_duration": 0.5
+      }
+    },
+    "average_event_duration": 0.5
+  },
+  "documentDate": "2025-08-23",
+  "extractedFrom": "overlap_test.txt",
+  "totalEvents": 5,
+  "extractionTimestamp": "2025-08-23T12:59:05.840164"
+}

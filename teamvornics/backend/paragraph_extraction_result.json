@@ -1,0 +1,147 @@
+{
+  "events": [
+    {
+      "eventType": "Arrived",
+      "startTime": "2025-08-10 05:30:00",
+      "endTime": "2025-08-10 06:00:00",
+      "duration": 0.5,
+      "location": "port limits",
+      "description": "the vessel arrived at port limits",
+      "confidence": 0.9,
+      "rawText": "10 Aug 2025 05:30 - the vessel arrived at port limits",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Tugs Made Fast",
+      "startTime": "2025-08-10 06:15:00",
+      "endTime": "2025-08-10 06:45:00",
+      "duration": 0.5,
+      "location": "07",
+      "description": "and tug assistance was made fast at 07:00",
+      "confidence": 0.9,
+      "rawText": "10 Aug 2025 06:15 - and tug assistance was made fast at 07:00",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Berthed",
+      "startTime": "2025-08-10 08:00:00",
+      "endTime": "2025-08-10 08:30:00",
+      "duration": 0.5,
+      "location": "Terminal 10",
+      "description": "vessel was all fast alongside Berth No",
+      "confidence": 0.9,
+      "rawText": "10 Aug 2025 08:00 - vessel was all fast alongside Berth No",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Nor Tendered",
+      "startTime": "2025-08-10 09:00:00",
+      "endTime": "2025-08-10 09:30:00",
+      "duration": 0.5,
+      "location": "09",
+      "description": "and accepted at 09:30",
+      "confidence": 0.9,
+      "rawText": "10 Aug 2025 09:00 - and accepted at 09:30",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Unberthed",
+      "startTime": "2025-08-12 05:45:00",
+      "endTime": "2025-08-12 06:15:00",
+      "duration": 0.5,
+      "location": "06",
+      "description": "last line was off at 06:00, and",
+      "confidence": 0.9,
+      "rawText": "12 Aug 2025 05:45 - last line was off at 06:00, and",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    },
+    {
+      "eventType": "Unberthed",
+      "startTime": "2025-08-12 06:15:00",
+      "endTime": "2025-08-12 06:45:00",
+      "duration": 0.5,
+      "location": "Terminal 10",
+      "description": "unberthed was completed",
+      "confidence": 0.9,
+      "rawText": "12 Aug 2025 06:15 - unberthed was completed",
+      "context": {
+        "cargo_type": null,
+        "quantity": null,
+        "weather": null,
+        "delays": [],
+        "personnel": []
+      }
+    }
+  ],
+  "vesselInfo": {
+    "name": "Mv Ocean Spirit At Rotterdam",
+    "imo": "IMO1234567",
+    "flag": "Panama"
+  },
+  "portInfo": {
+    "name": "Activities Of The Vessel Mv Ocean Spirit At Rotterdam",
+    "country": "Singapore"
+  },
+  "totalLaytime": "3.0 hours",
+  "statistics": {
+    "total_events": 6,
+    "total_duration_hours": 3.0,
+    "event_types": {
+      "Arrived": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Tugs Made Fast": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Berthed": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Nor Tendered": {
+        "count": 1,
+        "total_duration": 0.5
+      },
+      "Unberthed": {
+        "count": 2,
+        "total_duration": 1.0
+      }
+    },
+    "average_event_duration": 0.5
+  },
+  "documentDate": "2025-08-23",
+  "extractedFrom": "paragraph_test.txt",
+  "totalEvents": 6,
+  "extractionTimestamp": "2025-08-23T14:38:20.000096"
+}

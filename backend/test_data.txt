@@ -1,0 +1,7 @@
+Date: 10 Jan 2024
+
+10 Jan 2024 08:30 - Vessel arrived at port limits
+10 Jan 2024 09:00 - Vessel departed from port limits
+10 Jan 2024 10:15 - Vessel berthed at terminal
+10 Jan 2024 14:45 - Vessel unberthed from terminal
+10 Jan 2024 15:30 - Vessel anchored at waiting area
